@@ -6,7 +6,7 @@ Welcome to the demo of the data framework of Semalytics, a semantic-based tool f
 
 ## Quick overview
 
-If you are just interested in glancing at static examples of `SPARQL` queries and check out how we got paper results, you might want to take a look at this computational narrative.
+If you are just interested in glancing at static examples of `SPARQL` queries and check out how we got paper results, you might want to take a look at [this computational narrative](http://nbviewer.jupyter.org/github/lasircc/semalytics-demo/blob/master/notebook/demo/semalytics-demo.ipynb).
 
 Otherwise, if you want to take a deep dive into the platform, check out how following sections to run it on your system.
 
