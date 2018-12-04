@@ -1,0 +1,18 @@
+version: "3"
+services:
+  notebook:
+    container_name: "notebook"
+    build: ./notebook/
+    restart: always
+    ports:
+      - "8888:8888"
+    links:
+      - "graphdb:semalytics"
+  graphdb:
+    container_name: "graphdb"
+    image: "floatingpurr/graphdb:8.7.0-free"
+    restart: always
+    ports:
+      - "7200:7200"
+    volumes:
+      - "./graphdb/graphdb-home:/opt/graphdb/home"
