@@ -21,7 +21,7 @@ Before you start, you need to install:
 * [`docker`](https://docs.docker.com/install/) (tested: v.18.09.0-ce)
 * [`docker-compose`](https://docs.docker.com/compose/install/) (tested: v.1.23.2)
 
-Note: this demo is powered by [Ontotext GraphDB™] (Free version) (https://www.ontotext.com/products/graphdb/): a semantic graph database (RDF triplestore) anb by [Jupyter Notebook](http://jupyter.org/).
+Note: this demo is powered by [Ontotext GraphDB™](https://www.ontotext.com/products/graphdb/) (Free version): a semantic graph database (RDF triplestore) anb by [Jupyter Notebook](http://jupyter.org/).
 
 ### Getting a copy of this repository and testing data
 
@@ -52,9 +52,9 @@ semalytics-demo/
                 - annotationDB/
 ```
 
-**Legal note**: we allow anyone to use this data for demonstration purpose only. We do not allow any different usage. For further information, please contact paper authors.
+>**Legal note**: we allow anyone to use this data for demonstration purpose only. We do not allow any different usage. For further information, please contact paper authors.
 
-**Data disclaimer**: this is a prototype of a research platform. These data should not be used for emergencies or medical or professional advice or any clinical decision making.
+>**Data disclaimer**: this is a prototype of a research platform. These data should not be used for emergencies or medical or professional advice or any clinical decision making.
 
 Now, you just need to run the app 🚀
 
@@ -88,7 +88,7 @@ graphdb     | [INFO ] 2018-12-04 13:43:53,871 [main | c.o.g.Config] GraphDB Logs
 graphdb     | [INFO ] 2018-12-04 13:43:58,454 [main | c.o.g.s.GraphDB] Started GraphDB in workbench mode at port 7200.
 ```
 
-Please, grab and copy the login token from the log at the end of the `docker-compose` process. It is shown after the URL param `token`. In this example, it is:
+Please, grab and copy the login token from the log at the end of the `docker-compose` process. It is shown at the end of the URL as the param `token`. In this example, it is:
 
 ```
 7cf64f7836e030722d0254a1e828909a47378e67ab3069f4
