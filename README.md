@@ -21,7 +21,9 @@ Before you start, you need to install:
 * [`docker`](https://docs.docker.com/install/) (tested: v.18.09.0-ce or newer)
 * [`docker-compose`](https://docs.docker.com/compose/install/) (tested: v.1.23.2 or newer)
 
-Note: this demo is powered by [Ontotext GraphDB™](https://www.ontotext.com/products/graphdb/) (Free version): a semantic graph database (RDF triplestore) and by [Jupyter Notebook](http://jupyter.org/).
+Note #1: if you run this demo on macOS, we recommend to set at least to _4.0 GiB_ the memory limit of the Docker engine. See [this how-to](https://stackoverflow.com/a/44533437/4820341).
+
+Note #2: this demo is powered by [Ontotext GraphDB™](https://www.ontotext.com/products/graphdb/) (Free version): a semantic graph database (RDF triplestore) and by [Jupyter Notebook](http://jupyter.org/).
 
 ### Getting a copy of this repository and testing data
 
@@ -98,6 +100,8 @@ You will use that for accessing Jupyter Notebook.
 
 Great job, you are all set!
 
+(Press **Ctrl+C** to stop containers)
+
 
 ### Using GraphDB to explore data
 
@@ -106,6 +110,30 @@ You can access GraphDB workbench at [`http://localhost:7200/`](http://localhost:
 Select "**annotationDB**" from the dropdown menu at the top right corner of the Web interface. Now you can use GraphDB to explore translational data.
 
 ![graphdb interface](_docs/images/graphdb.png)
+
+#### Visualizing [class hierarchy](http://graphdb.ontotext.com/documentation/free/quick-start-guide.html#class-hierarchy)
+
+You can visualize the hierarchy of classes in Semalytics ontology. Go to _Explore -> Class hierarchy_ to get a bubble diagram and to interact with it.
+
+![graphdb interface](_docs/images/hierarchy.png)
+
+#### Visualizing [class relationships](http://graphdb.ontotext.com/documentation/free/quick-start-guide.html#class-relationships)
+
+In the section _Explore -> Class relationships_ you can visualize links between the individual instances of Semalytics classes.
+
+![graphdb interface](_docs/images/links.png)
+
+
+#### Visualizing [graph](http://graphdb.ontotext.com/documentation/free/quick-start-guide.html#explore-your-data-and-class-relationships)
+
+For showing a graphical representation of triples, move to _Explore -> Visual graph_ and insert a URI in the Easy graph search box (e.g., `http://las.ircc.it/ontology/annotationplatform#CRC0121LM`). An interactive graph centered on that URI will be opened.
+
+![graphdb interface](_docs/images/graph.png)
+
+
+#### Querying and other info
+
+A collection of queries is available in [the notebook](http://nbviewer.jupyter.org/github/lasircc/semalytics-demo/blob/master/notebook/demo/semalytics-demo.ipynb). You can copy and paste them directly in the [SPARQL tab](http://graphdb.ontotext.com/documentation/standard/quick-start-guide.html#query-your-data) of GraphDB to run them.
 
 Further information about the usage of GraphDB can be found in the [official documentation](http://graphdb.ontotext.com/documentation/free/).
 
