@@ -1,10 +1,10 @@
 # Semalytics core demo
 
-![Semalytics](_docs/images/logo.png)
-
 Welcome to the demo of the data framework of Semalytics, a semantic-based tool for analyzing hierarchical data in translational cancer research, which exploits [Wikidata](https://www.wikidata.org) as extended knowledge base for data annotation. This demo is bundled with the paper:
 
 >_Semalytics: a semantic analytics platform for the exploration of distributed and heterogenous cancer data (in translational research) (currently under review)_
+
+![Semalytics](_docs/images/logo.png)
 
 ## Quick overview
 
