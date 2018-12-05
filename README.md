@@ -1,5 +1,7 @@
 # Semalytics core demo
 
+![Semalytics](_docs/images/logo.png)
+
 Welcome to the demo of the data framework of Semalytics, a semantic-based tool for analyzing hierarchical data in translational cancer research, which exploits [Wikidata](https://www.wikidata.org) as extended knowledge base for data annotation. This demo is bundled with the paper:
 
 >_Semalytics: a semantic analytics platform for the exploration of distributed and heterogenous cancer data (in translational research) (currently under review)_
@@ -115,20 +117,20 @@ Select "**annotationDB**" from the dropdown menu at the top right corner of the 
 
 You can visualize the hierarchy of classes in Semalytics ontology. Go to _Explore -> Class hierarchy_ to get a bubble diagram and to interact with it.
 
-![graphdb interface](_docs/images/hierarchy.png)
+![hierarchy interface](_docs/images/hierarchy.png)
 
 #### Visualizing [class relationships](http://graphdb.ontotext.com/documentation/free/quick-start-guide.html#class-relationships)
 
 In the section _Explore -> Class relationships_ you can visualize links between the individual instances of Semalytics classes.
 
-![graphdb interface](_docs/images/links.png)
+![links interface](_docs/images/links.png)
 
 
 #### Visualizing [graph](http://graphdb.ontotext.com/documentation/free/quick-start-guide.html#explore-your-data-and-class-relationships)
 
 For showing a graphical representation of triples, move to _Explore -> Visual graph_ and insert a URI in the Easy graph search box (e.g., `http://las.ircc.it/ontology/annotationplatform#CRC0121LM`). An interactive graph centered on that URI will be opened.
 
-![graphdb interface](_docs/images/graph.png)
+![graph interface](_docs/images/graph.png)
 
 
 #### Querying and other info
@@ -148,10 +150,10 @@ http://localhost:8888/?token=<your-token-here>
 
 Open the folder `demo` and click on `semalytics-demo.ipynb` to start the notebook.
 
-![graphdb interface](_docs/images/demo.png)
+![notebook](_docs/images/demo.png)
 
 Now, you can explore, edit and run the walkthrough. To run all the cells, click on the fast forward icon on the command bar.
 
-![graphdb interface](_docs/images/run.png)
+![run notebook](_docs/images/run.png)
 
 That's all!
