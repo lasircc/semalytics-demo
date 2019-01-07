@@ -41,19 +41,14 @@ Now it's time to get data and put them in the right place. Download the data fil
 $ tar zxvf annotationDB_paper.tar.gz -C <path-to-the-repo>/semalytics-demo/graphdb/graphdb-home/data/repositories/
 ```
 
-It creates this directory tree:
+It creates this directories tree:
 ```
-semalytics-demo/
-|
- - graphdb/
-    |
-    - graphdb-home/
-        |
-        - data/
-            |
-            - repositories/
-                |
-                - annotationDB/
+semalytics-demo
+└── graphdb
+    └── graphdb-home
+        └── data
+            └── repositories
+                └── annotationdb
 ```
 
 >**Legal note**: we allow anyone to use this data for demonstration purpose only. We do not allow any different usage. For further information, please contact paper authors.
