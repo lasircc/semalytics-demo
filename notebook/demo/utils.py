@@ -21,14 +21,14 @@ class Analysis:
                    ['EGFR',len(cases_per_gene['EGFR'] & self.scope)],
                    ['ERBB2',len(cases_per_gene['ERBB2'] & self.scope)],
                    ['KRAS',len(cases_per_gene['KRAS'] & self.scope)],
-                   ], columns=['gene','case'])
+                   ], columns=['gene','cases'])
         return df
 
     def _get_responses(self, cases_per_response):
         df = pd.DataFrame([ ['response',len(cases_per_response['DRCl_OR'] & self.scope)],
                             ['neutral',len(cases_per_response['DRCl_SD'] & self.scope)],
                             ['progression',len(cases_per_response['DRCl_PD'] & self.scope)],
-                   ], columns=['response_type','case'])
+                   ], columns=['response_type','cases'])
         return df
 
 
@@ -62,7 +62,7 @@ class Analysis:
     def plot_variants(self):
         # create chart
         chart = self.variants.plot.bar(x='gene', 
-                    y='case',
+                    y='cases',
                     rot=0,
                     logy=True,
                     ylim=(0.1,1000),
@@ -73,7 +73,7 @@ class Analysis:
 
     def plot_responses(self):
         # create chart
-        chart = self.responses.plot.pie(y = 'case',
+        chart = self.responses.plot.pie(y = 'cases',
             rot=0,
             labels = self.responses['response_type'], # labels
             #labels = None,
