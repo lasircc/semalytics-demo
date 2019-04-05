@@ -95,7 +95,7 @@ Please, grab and copy the login token from the log at the end of the `docker-com
 7cf64f7836e030722d0254a1e828909a47378e67ab3069f4
 ```
 
-You will use that for accessing Jupyter Notebook.
+You will use that for accessing Jupyter Notebook at: [`http://127.0.0.1:8888`](http://127.0.0.1:8888)
 
 Great job, you are all set!
 
