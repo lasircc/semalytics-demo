@@ -1,0 +1,14 @@
+@prefix : <http://las.ircc.it/ontology/annotationplatform#> .
+
+# :has_variant
+:has_alteration rdfs:subPropertyOf :has_variant .
+:has_copy_number_variation rdfs:subPropertyOf :has_variant .
+
+# :hasChild no more necessary
+# :generates rdfs:subPropertyOf :hasChild .
+# :tissueCollected rdfs:subPropertyOf :hasChild .
+
+
+# :hasDescendant
+:generates rdfs:subPropertyOf :hasDescendant .
+:hasDescendant a owl:TransitiveProperty .

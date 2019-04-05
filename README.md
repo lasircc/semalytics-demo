@@ -8,6 +8,8 @@ Welcome to the demo of the data framework of Semalytics, a semantic-based tool f
 
 ## Quick overview
 
+(**NEW**) The data model files of Semalytics are included in the folder [`data_model`](_data_model). It contains main data entities and relations (i.e., `main_ontology.ttl`), as well as additional triples used to trigger inference processes described in the paper (i.e., `extra_properties.ttl`). Moreover, a visual schema can be found [here](https://drive.google.com/open?id=1aFKn4tf3Ii2oOgIAdK25qE208Kc7LbW7sZTQ0sfMhgc).
+
 If you are just interested in glancing at static examples of `SPARQL` queries and check out how we got paper results, you might want to take a look at [this computational narrative](http://nbviewer.jupyter.org/github/lasircc/semalytics-demo/blob/master/notebook/demo/semalytics-demo.ipynb).
 
 Otherwise, if you want to take a deep dive into the platform, check out following sections to run it on your system.
