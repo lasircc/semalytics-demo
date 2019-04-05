@@ -104,7 +104,7 @@ Great job, you are all set!
 
 ### Using GraphDB to explore data
 
-You can access GraphDB workbench at [`http://localhost:7200/`](http://localhost:7200/)
+You can access GraphDB workbench at: [`http://localhost:7200/`](http://localhost:7200/)
 
 Select "**annotationDB**" from the dropdown menu at the top right corner of the Web interface. Now you can use GraphDB to explore translational data.
 
