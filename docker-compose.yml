@@ -8,6 +8,8 @@ services:
       - "8888:8888"
     links:
       - "graphdb:semalytics"
+    volumes:
+      - "./notebook/demo:/app/demo"
   graphdb:
     container_name: "graphdb"
     image: "floatingpurr/graphdb:8.7.0-free"
