@@ -513,7 +513,7 @@ var renderTree = function (bioentityID, summarize) {
                 physics: { // just for rendering issue with huge trees
                     stabilization: false,
                     barnesHut: {
-                        gravitationalConstant: -80000,
+                        gravitationalConstant: -8000000,
                         springConstant: 0.001,
                         springLength: 200
                     }
