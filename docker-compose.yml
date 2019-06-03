@@ -1,5 +1,6 @@
 version: "3"
 services:
+
   notebook:
     container_name: "notebook"
     build: ./notebook/
@@ -10,11 +11,23 @@ services:
       - "graphdb:semalytics"
     volumes:
       - "./notebook/demo:/app/demo"
+
+  # Enable CORS in Chrome  
   graphdb:
     container_name: "graphdb"
     image: "floatingpurr/graphdb:8.7.0-free"
     restart: always
     ports:
       - "7200:7200"
+    #command: -Dgraphdb.workbench.cors.enable=true
     volumes:
       - "./graphdb/graphdb-home:/opt/graphdb/home"
+
+  web:
+    container_name: "web"
+    build: ./web/
+    restart: always
+    ports:
+      - "3000:3000"
+    volumes:
+      - "./web/src:/usr/src/app/src"
