@@ -2,7 +2,7 @@
 
 Welcome to the demo of the data framework of Semalytics, a semantic-based tool for analyzing hierarchical data in translational cancer research, which exploits [Wikidata](https://www.wikidata.org) as extended knowledge base for data annotation. This demo is bundled with the paper:
 
->_Semalytics: a semantic analytics platform for the exploration of distributed and heterogeneous cancer data in translational research (currently under review)_
+>_Andrea Mignone, Alberto Grand, Alessandro Fiori, Enzo Medico, Andrea Bertotti, **Semalytics: a semantic analytics platform for the exploration of distributed and heterogeneous cancer data in translational research**, Database, Volume 2019, 2019, baz080_ ([full text here](https://academic.oup.com/database/article/doi/10.1093/database/baz080/5529975))
 
 ![Semalytics](_docs/images/logo.png)
 
