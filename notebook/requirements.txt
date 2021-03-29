@@ -41,7 +41,7 @@ pickleshare==0.7.5
 prometheus-client==0.4.2
 prompt-toolkit==2.0.7
 ptyprocess==0.6.0 ; os_name != 'nt'
-pygments==2.2.0
+pygments==2.7.4
 pylint==2.1.1
 pyparsing==2.3.0
 python-dateutil==2.7.5
